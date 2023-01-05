@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <script src="https://kit.fontawesome.com/6754e8608b.js" crossorigin="anonymous"></script>
+   <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body style="background-color:#111;">
+  
+  <header>
+    <div id="header">
+      <div id="logo">
+          <h3>Enjoyal <span>M J</span> </h3>
+      </div>
+      <div>
+      <ul id="navigation" >
+        <a  href="#home"> <li>Home</li></a>
+          <a  href="#about"><li>About</li></a>
+          <a  href="#education"><li>Education</li></a>
+          <a  href="#projects"><li>Projects</li></a>
+          <a  href="#contact"><li>Contact</li></a>
+      </ul>
+    </div>
+    </div>
+    </header>
+
+<!-- Menu section for smartphones -->
+    <nav id="nav-phone" class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Enjoyal <span>M J</span> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <img src="./images/images/Enjoyal M J-01.jpeg" alt="" style="width: 50px;" class="rounded-circle">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mt-2 " aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " aria-current="page" href="#about">About</a>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#education">Education</a>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#contact">Contact</a>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+
+    <!-- menu ends -->
+   
+
+    
+    <!-- home section -->
+
+    <section class="home" id="home">
+      <div class="container">
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Enjoyal M J</span></h1>
+        <p class="w-50">I am a MEARN stack web developer with hands
+          on experience in both front-end and back-end
+          technologies. I have a strong foundation in
+          HTML, CSS, and JavaScript, and am proficient
+          in frameworks such as Bootstrap, Angular. On
+          the back-end, I have experience working with
+          Node.js, and have used MongoDB as database
+          to store and retrieve data.</p>
+        <a class="btn  rounded-5 text-decoration-none" id="btn" href="#about"> about me <i class="fa-solid fa-user"></i></a>
+
+
+      </div>
+    </section>
+
+    <!-- about-section -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about </span>me</h1>
+      <div class="container-fluid">
+        
+        <div class="container mt-5" >
+          <div id="image">
+          <img src="./images/images/20200619_095542.jpg" alt="" style="width: 500px;">
+         </div>
+          <div class="info ">
+            <h4><span> name :</span> Enjoyal m j</h4>
+            <h4><span> age :</span> 22</h4>
+            <h4><span>qualification :</span>B.Tech in Computer science and Engineering</h4>
+            <h4><span> Languages :</span>Malayalam, english, Hindi</h4>
+            <h4><span> place : </span>angamaly, kerala</h4>
+
+             <!-- Skill Accordin -->
+        <div class="accordion mt-3 w-75" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+               Skills
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <strong >HTML, CSS, Bootsrap, JavaScript, Angular, NodeJS, Express JS, MongoDB</strong> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="btn  rounded-5 text-decoration-none" id="btn" href="https://drive.google.com/file/d/1-DqYlNZu0Iu2FWzhnGkW7cQNJRU8q55P/view?usp=drivesdk"> download CV <i class="fa-solid fa-download"></i></a>
+
+
+        </div>
+        </div>
+      </div>
+
+            <!-- <div class="counter">
+
+                <div class="box">
+                    <span>5+</span>
+                    <h3>month experience in mearn stack</h3>
+                </div>
+
+                <div class="box">
+                    <span>3+</span>
+                    <h3>project completed</h3>
+                </div> -->
+
+                <!-- <div class="box">
+                    <span>1+</span>
+                    <h3>year experience in mearn stack</h3>
+                </div> -->
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--education section-->
+
+    <section class="education" id="education">
+
+    <h1 class="heading"><span>my</span> education</h1>
+    <div class="container-fluid">
+      <div class="container">
+
+            <div class="box">
+              <i class="fas fa-graduation-cap"></i>
+              <span>2023</span>
+              <h3>mearn stack developer</h3>
+              <p>Luminar Technolab <br>
+                08/2022 – present | Kakkanad, India</p><br><br>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022</span>
+            <h3>B.Tech in Comuter science & engineering</h3>
+            <p>Mar Baselios Institute of Technology and
+              Science, Nellimattom <br>
+              2018 – 2022 | Kothamangalam, India
+              </p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2018</span>
+            <h3>Plus two</h3>
+            <p>Govt. Samithy Higher Secondary School,<br>
+              Meladoor <br>
+              2016 – 2018 | Thrissur, India</p><br>
+          </div>
+
+
+          <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2016</span>
+            <h3>SSLC</h3>
+            <p>NSS HSS Parakadavu <br>
+              2016 | Angamaly, India</p><br>
+              <br>
+        </div>
+    
+      </div>
+    </div>
+
+    </section>
+
+    <!-- portfolio-section -->
+
+    <section class="projects" id="projects">
+
+       
+            <h1 class="heading"><span>my</span> projects</h1>
+
+            <div class="container">
+
+              <div class="card w-25 m-5">
+                <div class="image">
+                  <img src="https://media.istockphoto.com/photos/silver-shield-with-check-mark-symbol-sitting-on-blue-background-picture-id1311165478?b=1&k=20&m=1311165478&s=612x612&w=0&h=3ERVUgi0dIsis1c3ix81NmlxQAj88En54PmZplS9QNw=" class="card-img-top" alt="...">
+                  <p class="image-text">A chrome extension developed for the
+                    detection and removing of cyberbullying (bad
+                    comments or words) in social media platforms
+                    in user's system. By using this extension the
+                    user can be able to remove, replace, and blur
+                    the bad words in social media platforms <br>
+                    <span>Technology(s) Used:</span> HTML, CSS, JavaScript, NodeJs, MYSQL <a href="https://github.com/Enjoyal/Custodian" class="fa-solid fa-arrow-up-right-from-square"></a></p>
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Custodian</h5>
+              </div>
+
+                </div>
+
+                <div class="card w-25 m-5">
+                <div class="image">
+                  <img src="https://www.mas-software.com/wp-content/uploads/2021/06/Retail-Software.jpg" class="card-img-top" alt="...">
+                  <p class="image-text">This application is developed to manage retail shops for billing and inventory management. The user can be able to add the stock of products and also can generate bill. It also contains a function to find the overall profit and loss of the user's shop<br>
+                    <span>Technology(s) Used:</span> C#, MYSQL <a href="#" class="fa-solid fa-arrow-up-right-from-square"></a>
+                   </p>
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Retail Store Management S/w</h5>
+                    <!-- <p class="image-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                </div>
+                </div>
+
+                <div class="card w-25 m-5">
+                <div class="image">
+                  <img src="https://d2tyltutevw8th.cloudfront.net/media/image/bestdigitalbanks-1200-1631119866.jpg" class="card-img-top" alt="...">
+                  <p class="image-text">This app is developed to manage and access
+                    the user's bank account without stepping into
+                    the bank. It contains a register and login form,
+                    and also have some functions for the user to
+                    deposit & withdraw. The user can also be able
+                    to check the balance and transaction details. <br>
+                    <span>Technology(s) Used:</span> Angular, NodeJS, Express JS, MongoDB 
+                    <a href="https://github.com/Enjoyal/BankApp" class="fa-solid fa-arrow-up-right-from-square"></a>
+                    </p>
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Banking App</h5>
+                    <!-- <p class="image-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                    
+                  </div>
+                </div>
+
+                <div class="card w-25 m-5">
+                  <div class="image">
+                  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                  <p class="image-text">a simple todoList developed using Angular. it contains input button to add Tasks one by one. And we can also be able to edit and delete the tasks as we wanted.<br>
+                    <span>Technology(s) Used:</span> Angular(HTML, CSS, TypeSript) <a href="https://github.com/Enjoyal/TodoList" class="fa-solid fa-arrow-up-right-from-square"></a>
+                   </p>
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Todo List</h5>
+                </div>
+                </div>
+
+                <div class="card w-25 m-5">
+                  <div class="image">
+                  <img src="https://www.pngitem.com/pimgs/m/136-1364329_abm-ad-budget-calculator-budget-planning-icon-png.png" class="card-img-top" alt="...">
+                  <p class="image-text">A simple budget calculator were we can add the monthly income and expenses one by one in the corresponding input coloumns. And We can get the total expense and balance amount as output.<br>
+                    <span>Technology(s) Used:</span> HTML, CSS, Bootstrap, JavaScript <a href=" https://enjoyal.github.io/Budget-Calculator/" class="fa-solid fa-arrow-up-right-from-square"></a>
+                  </p>
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Budget Calculator</h5>
+                </div>
+                </div>
+
+                <div class="card w-25 m-5">
+                  <div class="image">
+                  <img src="https://www.pngitem.com/pimgs/m/136-1364329_abm-ad-budget-calculator-budget-planning-icon-png.png" class="card-img-top" alt="...">
+                  <p class="image-text">A simple Arithematic calculator were we can do arithematic opertions and get the corresponding answer as output .<br>
+                    <span>Technology(s) Used:</span> HTML, CSS, Bootstrap, JavaScript <a href=" https://enjoyal.github.io/Budget-Calculator/" class="fa-solid fa-arrow-up-right-from-square"></a>
+                  </p>
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Calculator</h5>
+                </div>
+                </div>
+
+                <div class="card w-25 m-5">
+                  <div class="image">
+                  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/dexsl9x-67e944bb-92c1-4206-98dd-9db4eae9827f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUyOThiYWMwLWI4YmYtNGM4MC1hZjY3LTcyNWMxMjcyZGJiMFwvZGV4c2w5eC02N2U5NDRiYi05MmMxLTQyMDYtOThkZC05ZGI0ZWFlOTgyN2YuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Qi60HbqaiOcPr5yT8C31iTk-187QGd7ERtqusEYxRpQ" class="card-img-top" alt="...">
+                  <p class="image-text">An api based website that can give the corresponding movie details by entering the movie name. it also give suggestions for the movie name.<br>
+                    <span>Technology(s) Used:</span> HTML, CSS, Bootstrap, JavaScript, API <a href="https://enjoyal.github.io/MovieSearchApp/" class="fa-solid fa-arrow-up-right-from-square"></a>
+                  </p>
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">MovieSpot</h5>
+                </div>
+                </div>
+
+                <div class="card w-25 m-5">
+                  <div class="image">
+                  <img src="./images/coffee1.jpg" class="card-img-top" alt="...">
+                  <p class="image-text">a simple Coffee website developed using HTML & CSS.
+                    It contains a header,footer, and several sections. Here we can be able to access the recipies of different types of coffees by clicking the button.<br>
+                    <span>Technology(s) Used:</span> HTML & CSS <a href=" https://enjoyal.github.io/Coffee_website/" class="fa-solid fa-arrow-up-right-from-square"></a>
+                    </p>
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee Time</h5>
+                </div>
+                </div>
+
+                <div class="card w-25 m-5">
+                  <div class="image">
+                  <img src="https://www.iwmbuzz.com/wp-content/uploads/2021/08/6-mental-health-benefits-of-travelling-see-here.jpeg" class="card-img-top" alt="...">
+                  <p class="image-text">This is a simple Travel blog website(front-end) developed using HTML, CSS & bootsrap.
+                    It contains a header,footer, and several sections. About, Recent posts, destinations and travel kits are sections in this website. <br>
+                    <span>Technology(s) Used:</span> HTML, CSS, Bootsrap <a href="#" class="fa-solid fa-arrow-up-right-from-square"></a>
+                    </p>
+                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Mad Traveller</h5>
+                </div>
+                </div>
+
+                
+
+           </div>
+
+            
+
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> me</h1>
+
+        <div class="container">
+            <div class="content">
+                <h3 class="title">contact info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"> </i> enjoyalmj17@gmail.com</h3>
+                    <h3><i class="fas fa-phone"> </i> +91-8304099044</h3>
+                    <h3><i class="fa-solid fa-location-dot"></i> angamaly, kerala - 683579.</h3>
+                </div>
+            </div>
+
+                <form action="">
+                    <input type="text" placeholder="Name" class="box">
+                    
+                    <input type="email" placeholder="email" class="box">
+                    <input type="text" placeholder="Ph no." class="box">
+                    <textarea name="" id="" cols="30" rows="10" class="box mssg" placeholder="Message"></textarea>
+                    <button id="btn" type="submit">send <i class="fas fa-paper-plane"></i></button>
+                </form>
+            
+
+        </div>
+    </section>
+
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!--  Social media -->
+          <div class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+              </div>
+          <!--  Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" id="copyright" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-decoration-none" href="#home">my portfolio</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+  
+<script src="portfolio.js"></script>
+</body>
+</html>
